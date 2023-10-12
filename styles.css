@@ -1,0 +1,147 @@
+body{
+    background-color: #11009E;
+}
+
+.navbar{
+    text-align: center;
+    padding: 0;
+    margin : 0;
+    
+}
+
+
+.navbar ul li:first-child {
+        
+        color: white; 
+        padding-right: 250px; 
+        font-size: large;
+    }
+
+.navbar ul li:nth-child(2) {
+        
+        color: grey; 
+    }
+
+ .navbar ul li:nth-child(n+3):nth-child(-n+5) 
+    {
+        color:white;
+    }
+
+
+.purchase{
+    border-radius: 50px;
+    border:none;
+    padding: 10px;
+    color: white;
+    background-color: #DD58D6;
+    border: solid black;
+}
+
+.gen{
+    color :white;
+    width: 200px;
+    margin-left: 100px;
+    position: relative;
+    left:230px;
+    top:70px;
+    font-family: "Times New Roman", Times, serif ;
+}
+.gen h4{
+    font-family : Calibri;
+}
+
+.bu{
+    border-radius: 50px;
+    border:none;
+    padding: 10px;
+    color: white;
+    background-color: palevioletred;
+}
+
+.navbar li{
+    
+    display : inline-block;
+    padding: 25px 20px;
+    
+}
+
+.hor{
+    display: flex; 
+    flex-direction: row;
+}
+
+.hor:before, 
+        .hor:after { 
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: 1px solid  grey; 
+            margin: 0px 10px; 
+       
+        } 
+
+
+
+.form{
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    position:relative;
+    left: 700px;
+    bottom: 280px;
+    height:450px;
+}
+
+.input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    outline : none;
+    width: 60%;
+}
+
+.form button{
+    width: 60%;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.signup{
+    background-color:blue;
+    padding: 20px;
+
+}
+
+.login{
+    background-color:#98E4FF;
+}
+
+.form h1{
+    font-family: sans-serif;
+    color:purple;
+    padding-top: 20px;
+}
+
+.checkbox{
+    padding:20px;
+}
+
+.form p{
+    padding-bottom: 20px;
+    color:#999;
+}
+
+a{
+    color: #80B3FF;
+    text-decoration: solid;
+}
+
+.startup{
+    color:white;
+}
